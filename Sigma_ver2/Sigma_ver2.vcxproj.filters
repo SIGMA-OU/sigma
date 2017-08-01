@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CUDA_File">
+      <UniqueIdentifier>{af578d8a-7309-4e8c-bc78-a527f7be66ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDA_Header">
+      <UniqueIdentifier>{4162a42b-9ff6-4d3e-947d-edf08cab4a34}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Abstract_Layer.cuh">
+      <Filter>CUDA_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstract_Middle_Layer.cuh">
+      <Filter>CUDA_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Activate_Function.cuh">
+      <Filter>CUDA_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Additional_Process.cuh">
+      <Filter>CUDA_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Batch_Matrix.cuh">
+      <Filter>CUDA_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Convolution2D_Layer.cuh">
+      <Filter>CUDA_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Data_Set.cuh">
+      <Filter>CUDA_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DEFINES.cuh">
+      <Filter>CUDA_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Device_Matrix.cuh">
+      <Filter>CUDA_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dropout_Process.cuh">
+      <Filter>CUDA_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Feed_Forward_NN.cuh">
+      <Filter>CUDA_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="for_debug.cuh">
+      <Filter>CUDA_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Fully_Connect_Layer.cuh">
+      <Filter>CUDA_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Host_Matrix.cuh">
+      <Filter>CUDA_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Input_Layer.cuh">
+      <Filter>CUDA_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Noising_Process.cuh">
+      <Filter>CUDA_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer.cuh">
+      <Filter>CUDA_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Pooling2D_Layer.cuh">
+      <Filter>CUDA_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Sigma_global_functions.cuh">
+      <Filter>CUDA_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Sigma_Matrix.cuh">
+      <Filter>CUDA_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.cuh">
+      <Filter>CUDA_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MNIST.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Imaging.cuh">
+      <Filter>CUDA_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Sigma_Evaluation_Function.cuh">
+      <Filter>CUDA_Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="Activate_Function.cu">
+      <Filter>CUDA_File</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Convolution2D_Layer.cu">
+      <Filter>CUDA_File</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Device_Matrix.cu">
+      <Filter>CUDA_File</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Dropout_Process.cu">
+      <Filter>CUDA_File</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Feed_Forward_NN.cu">
+      <Filter>CUDA_File</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Fully_Connect_Layer.cu">
+      <Filter>CUDA_File</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Input_Layer.cu">
+      <Filter>CUDA_File</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Noising_Process.cu">
+      <Filter>CUDA_File</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Optimizer.cu">
+      <Filter>CUDA_File</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Pooling2D_Layer.cu">
+      <Filter>CUDA_File</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Sigma_global_functions.cu">
+      <Filter>CUDA_File</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Sigma_Matrix.cu">
+      <Filter>CUDA_File</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Utility.cu">
+      <Filter>CUDA_File</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Imaging.cu">
+      <Filter>CUDA_File</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Sigma_Evaluation_Function.cu">
+      <Filter>CUDA_File</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Layer1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
